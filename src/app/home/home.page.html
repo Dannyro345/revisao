@@ -18,7 +18,7 @@
 
         <ion-card-content>
           <ion-item>
-            <ion-icon name="heart" slot="start"></ion-icon>
+            <ion-icon name="heart" slot="start" (click)="likes(perfil)"></ion-icon>
             <ion-badge slot="end">{{perfil.likes}}</ion-badge>
           </ion-item>
         </ion-card-content>

@@ -25,4 +25,8 @@ export class HomePage {
     ]
   }
 
+  likes(perfis) {
+    perfis.likes = perfis.likes + 1;
+  }
+
 }
